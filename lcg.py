@@ -13,7 +13,7 @@ def read_param_from_file(path):
             if len(data) != 4:
                 print('Incorrect data.\nTemplate: [multiplier] [start value] [increment] [modulus]')
                 sys.exit(1)
-            return data
+        return data
     except IOError:
         print('Error opening ' + path)
 
